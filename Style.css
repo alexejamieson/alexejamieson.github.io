@@ -1,15 +1,15 @@
-main-nav {
+#Style-nav {
 	margin-bottom: 0px;
 	border-radius: 0px;
 }
 
-main-title {
+#Style-title {
 	text-align: center;
 	text-transform: uppercase;
 	letter-spacing:	0.0625em;
 }
 
-photo-banner {
+#photo-banner {
 	background: url('/Lighthouse.jpg');
 	background-size: cover;
 	background-position: center center;
@@ -25,17 +25,17 @@ photo-banner {
 	padding-bottom: 20px;
 }
 
-main-footer {
+#Style-footer {
 	text-align: center;
 }
 
-paginator-nav {
+#paginator-nav {
 	display: inline;
 	list-style-type: none;
 	padding-right: 20px;
 }
 
-paginator-nav li {
+#paginator-nav li {
 	display: inline;
 }
 
