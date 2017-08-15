@@ -1,84 +1,41 @@
-/*
-Theme Name: 
-Theme URI: 
-Description: 
-Version: 1.0
-Author: 
-Author URI: 
-*/
-
-/* reset styles */
-html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var, b, u, i, center,
-dl, dt, dd, ol, ul, li, fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td { 
-	margin: 0; padding: 0;  border: 0; outline: 0; font-size: 100%; 
-	vertical-align: baseline; background: transparent;
+#main-nav {
+	margin-bottom: 0px;
+	border-radius: 0px;
 }
-body { line-height: 1; }
-ol, ul { list-style: none; }
-blockquote, q { quotes: none; }
-blockquote:before, blockquote:after, q:before, q:after { content: ''; }
-:focus { outline: 0; }
-ins { text-decoration: none; }
-del { text-decoration: line-through; }
-table { border-collapse: collapse; border-spacing: 0; }
 
-body {
-	font-size: 62.5%;
+#main-title {
 	text-align: center;
-	color: #000000;
+	text-transform: uppercase;
+	letter-spacing:	0.0625em;
 }
 
-/* container - place inside each section or around the entire page depending on your layout */
-.container {
-	width: 960px;
-	margin: 0 auto;
-	text-align: left;
-	position: relative;
+#photo-banner {
+	background: url('/Lighthouse.jpg');
+	background-size: cover;
+	background-position: center center;
+	height: 200px;
 }
 
-/* for clearing any floats <br class="clearfloat" /> */
-.clearfloat { 
-    clear:both;
-    height:0;
-    font-size: 1px;
-    line-height: 0px;
-}
-
-/*--- header section - put whatever you want here ---*/
-#header {
-}
-
-/*--- horizontal "block" menu ---*/
-#menu { 
-	float: left;	
-}
-#menu li {
-	display: block;
+.footer-element {
 	float: left;
-}
-#menu li a {
-	display: block;
-	text-decoration: none;
-	height: 50px;
-	width: 125px;
-	padding: 5px 10px 5px 10px;
-}
-/* wordpress specific menu stylings */
-#menu li.current_page_item a {
-}
-#menu li.first a {
-}
-#menu li.last a {
+	padding-left: 10px;
 }
 
-/*--- content section - put whatever you want here ---*/
-#content {
-	font: 1.2em Verdana, Arial, Helvetica, sans-serif;
+.image-link {
+	padding-bottom: 20px;
 }
 
-/*--- footer section - put whatever you want here ---*/
-#footer {
+#main-footer {
+	text-align: center;
 }
+
+#paginator-nav {
+	display: inline;
+	list-style-type: none;
+	padding-right: 20px;
+}
+
+#paginator-nav li {
+	display: inline;
+}
+
